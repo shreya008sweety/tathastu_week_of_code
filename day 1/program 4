@@ -1,0 +1,6 @@
+costprice=float(input("enter the costprice of the product:"))
+sellprice=float(input("enter the sellprice of the product:"))
+profit=sellprice - costprice
+newsellingprice=1.05 * profit + costprice
+print("profit is:",profit)
+print("to increase the profit by 5% the selling price is :",newsellingprice)
