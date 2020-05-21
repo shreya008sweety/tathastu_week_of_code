@@ -1,0 +1,15 @@
+runplayer1=int(input("enter the runs scored by player1 in 60 balls:"))
+runplayer2=int(input("enter the runs scored by player2 in 60 balls:"))
+runplayer3=int(input("enter the runs scored by player3 in 60 balls:"))
+strikerate1= runplayer1 * 100/60
+strikerate2= runplayer2 * 100/60
+strikerate3= runplayer3 * 100/60
+print("strikerate of player 1 is :",strikerate1)
+print("strikerate of player 2 is :",strikerate2)
+print("strikerate of player 3 is :",strikerate3)
+print("the runs scored by player one if played 60 more balls :",runplayer1 * 2)
+print("the runs scored by player two if played 60 more balls :",runplayer2 * 2)
+print("the runs scored by player three if played 60 more balls :",runplayer3 *2)
+print("maximun number of sixes player 1 could hit :", runplayer1 // 6)
+print("maximum number of sexes player 2 could hit :",runplayer2 // 6)
+print("maximum number of sixes player 3 could hit :",runplayer3 //6)
